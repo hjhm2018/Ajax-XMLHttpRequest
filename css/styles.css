@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.box {
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
