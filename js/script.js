@@ -7,11 +7,11 @@ function drawData() {
         data.forEach(item => {
             container.innerHTML += `
                 <div class="box">
-                    <p><b>Name:</b> ${item.name}</p>
-                    <p><b>Email:</b> ${item.email}</p>
-                    <p><b>Address:</b> ${item.address.street}, ${item.address.suite}, ${item.address.city}, ${item.address.zipcode}</p>
-                    <p><b>Phone:</b> ${item.phone}</p>
-                    <p><b>Website:</b> ${item.website}</p>
+                    <p><i class="fa fa-user"></i> <b>Name:</b> ${item.name}</p>
+                    <p><i class="fa fa-envelope-o"></i> <b>Email:</b> ${item.email}</p>
+                    <p><i class="fa fa-map-pin"></i> <b>Address:</b> ${item.address.street}, ${item.address.suite}, ${item.address.city}, ${item.address.zipcode}</p>
+                    <p><i class="fa fa-phone"></i> <b>Phone:</b> ${item.phone}</p>
+                    <p><i class="fa fa-globe"></i> <b>Website:</b> ${item.website}</p>
                 </div>
             `
         })
